@@ -1,0 +1,222 @@
+/*--- Fashion ---*/
+.fashion {
+    color: #ff3366;
+}
+
+.fashion:hover {
+    background-color: #ff3366;
+
+}
+
+.fashion:hover a {
+    color: #FFFFFF;
+}
+a.fashion:hover {
+    color: #FFFFFF;
+}
+
+.fashion-border-top {
+    border-top: 3px solid #ff3366;
+}
+
+.fashion-icon {
+    padding-left: 55px;
+    width: 180px;
+    background: url("../data/fashion.png") 18px center no-repeat #2b2b2b;
+}
+
+nav.nav-navbar ul.nav-navbar li.fashion a.active {
+    background-color: #ff3366;
+    color: #FFFFFF;
+}
+
+/*--- Sport ---*/
+.sports {
+    color: #339966;
+}
+
+.sports:hover {
+    background-color: #339966;
+
+}
+
+.sports:hover a {
+    color: #FFFFFF;
+}
+
+.sports-border-top {
+    border-top: 3px solid #339966;
+}
+
+.sports-icon {
+    padding-left: 55px;
+    width: 180px;
+    background: url("../data/sports.png") 18px center no-repeat #2b2b2b;
+}
+
+nav.nav-navbar ul.nav-navbar li.sports a.active {
+    background-color: #339966;
+    color: #FFFFFF;
+}
+
+/*--- Electronics ---*/
+.electronics {
+    color: #ff6633;
+}
+
+.electronics:hover {
+    background-color: #ff6633;
+
+}
+
+.electronics:hover a {
+    color: #FFFFFF;
+}
+
+.electronics-border-top {
+    border-top: 3px solid #ff6633;
+}
+
+.electronics-icon {
+    padding-left: 55px;
+    width: 180px;
+    background: url("../data/electronic.png") 18px center no-repeat #2b2b2b;
+}
+
+nav.nav-navbar ul.nav-navbar li.electronics a.active {
+    background-color: #ff6633;
+    color: #FFFFFF;
+}
+
+/*--- Digital ---*/
+.digital {
+    color: #3366cc;
+}
+
+.digital:hover {
+    background-color: #3366cc;
+
+}
+
+.digital:hover a {
+    color: #FFFFFF;
+}
+
+.digital-border-top {
+    border-top: 3px solid #3366cc;
+}
+
+.digital-icon {
+    padding-left: 55px;
+    width: 180px;
+    background: url("../data/digital.png") 18px center no-repeat #2b2b2b;
+}
+
+nav.nav-navbar ul.nav-navbar li.digital a.active {
+    background-color: #3366cc;
+    color: #FFFFFF;
+}
+div.content-main:hover .btn-movable-previous{
+    z-index: 999;
+    transform: translateX(-468px);
+    opacity: 1;
+    visibility: visible;
+}
+div.content-main:hover .btn-movable-next{
+    z-index: 999;
+    transform: translateX(435px);
+    opacity: 1;
+    visibility: visible;
+}
+/*--- Furniture ---*/
+.furniture {
+    color: #669900;
+}
+
+.furniture:hover {
+    background-color: #669900;
+
+}
+
+.furniture:hover a {
+    color: #FFFFFF;
+}
+
+.furniture-border-top {
+    border-top: 3px solid #669900;
+}
+
+.furniture-icon {
+    padding-left: 55px;
+    width: 180px;
+    background: url("../data/furniture.png") 18px center no-repeat #2b2b2b;
+}
+
+nav.nav-navbar ul.nav-navbar li.furniture a.active {
+    background-color: #669900;
+    color: #FFFFFF;
+}
+
+/*--- Jewelry ---*/
+.jewelry {
+    color: #6c6856;
+}
+
+.jewelry:hover {
+    background-color: #6c6856;
+
+}
+
+.jewelry:hover a {
+    color: #FFFFFF;
+}
+
+.jewelry-border-top {
+    border-top: 3px solid #6c6856;
+}
+
+.jewelry-icon {
+    padding-left: 55px;
+    width: 180px;
+    background: url("../data/jewelry.png") 18px center no-repeat #2b2b2b;
+}
+
+nav.nav-navbar ul.nav-navbar li.jewelry a.active {
+    background-color: #6c6856;
+    color: #FFFFFF;
+}
+
+/*-------------------------------*/
+.bars-icon {
+    cursor: pointer;
+    font-weight: bold;
+    padding-left: 25px;
+    width: 245px;
+    background: url("../images/bar.png") 236px center no-repeat #2b2b2b;
+}
+
+.extends-down {
+    position: relative;
+    background: url("../images/dropdow.png") 90% center no-repeat
+}
+
+.extends-down:hover .sub-menu-v {
+    background-color: #FFFFFF;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50px);
+    z-index: 999;
+
+}
+
+.extends-right {
+    background: url("../images/extend-right.png") 95% center no-repeat
+}
+
+.extends-right:hover div.sub-menu-h {
+    transform: translateX(-54px);
+    opacity: 1;
+    visibility: visible;
+    z-index: 999;
+    background-color: #FFFFFF;
+}

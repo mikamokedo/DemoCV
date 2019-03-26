@@ -1,0 +1,191 @@
+/*================================= HOME =================================*/
+/*region===== HEADER =====*/
+header {
+    background-color: #f6f6f6;
+}
+
+div.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*--Top--*/
+nav.top-nav {
+    display: flex;
+}
+
+nav.top-nav .left {
+    height: 35px;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav.top-nav .right {
+    height: 35px;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav.top-nav ul li {
+    line-height: 35px;
+    padding: 0 15px;
+}
+
+nav.top-nav ul > a:hover {
+    color: #ff3366;
+}
+
+/*--Header-Main--*/
+div.header-main {
+    height: 114px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+/*endregion*/
+
+/*region===== SLIDER =====*/
+div.slider {
+    background-color: #FFFFFF;
+    border-top: 3px solid #ff3366;
+    margin-left: 270px;
+    display: flex;
+}
+
+/*endregion*/
+
+/*region===== PAGE CONTENT-TOP =====*/
+div.page-content-top {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-content-top .popular-product {
+    width: 870px;
+}
+
+.page-content-top .popular-product div.content {
+    height: 440px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.page-content-top .popular-product div.content div.list-popular-product {
+    width: 100%;
+    height: 440px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+}
+
+/*endregion*/
+
+/*region===== PAGE CONTENT-MIDDLE =====*/
+div.page-content-middle {
+    background-color: #eeeeee;
+}
+
+div.page-content-middle div.content {
+    margin: 10px 0;
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+div.page-content-middle div.content div.content-main {
+    position: relative;
+    width: 936px;
+    overflow: hidden;
+}
+
+div.page-content-middle div.content div.content-main div.list-product {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+/*endregion*/
+
+/*region===== FOOTER =====*/
+footer {
+    margin: 60px 0;
+    background-color: #eeeeee;
+}
+
+.container-introduce {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    height: 212px;
+
+}
+
+.introduce-box {
+    display: inline-block;
+    line-height: 25px;
+}
+
+.introduce-box h4 {
+    margin: 10px 0;
+}
+
+/*endregion*/
+
+/*================================= CATEGORY =================================*/
+
+/*region===== PAGE-CONTENT =====*/
+.page-content {
+    background-color: #FFFFFF;
+}
+
+.page-content > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-content .left {
+    width: 270px;
+}
+
+.page-content .right {
+    width: 870px;
+}
+
+.page-content .right .container-products {
+    position: relative;
+    display: grid;
+    grid-gap: 30px 30px;
+    grid-template-columns: auto auto auto;
+}
+
+/*endregion*/
+
+/*region===== CONTENT-PATH =====*/
+nav.content-path {
+    margin: 10px 0;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav.content-path a {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+/*endregion*/
